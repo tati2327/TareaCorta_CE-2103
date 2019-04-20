@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pablo/Documentos/TareaCorta2/Factory.cpp
+Factory.h
+/home/pablo/Documentos/TareaCorta2/Factory.h
+
+/home/pablo/Documentos/TareaCorta2/Factory.h
+List.h
+/home/pablo/Documentos/TareaCorta2/List.h
+Vehicle.h
+/home/pablo/Documentos/TareaCorta2/Vehicle.h
+
+/home/pablo/Documentos/TareaCorta2/List.h
+iostream
+-
+Node.h
+/home/pablo/Documentos/TareaCorta2/Node.h
+List_def.h
+/home/pablo/Documentos/TareaCorta2/List_def.h
+
+/home/pablo/Documentos/TareaCorta2/List_def.h
+
+/home/pablo/Documentos/TareaCorta2/Node.h
+Node_def.h
+/home/pablo/Documentos/TareaCorta2/Node_def.h
+
+/home/pablo/Documentos/TareaCorta2/Node_def.h
+
+/home/pablo/Documentos/TareaCorta2/Vehicle.h
+
+/home/pablo/Documentos/TareaCorta2/main.cpp
+iostream
+-
+List.h
+/home/pablo/Documentos/TareaCorta2/List.h
+Factory.h
+/home/pablo/Documentos/TareaCorta2/Factory.h
+Vehicle.h
+/home/pablo/Documentos/TareaCorta2/Vehicle.h
+
