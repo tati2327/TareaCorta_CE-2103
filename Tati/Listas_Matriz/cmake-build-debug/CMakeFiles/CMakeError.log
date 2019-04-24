@@ -1,0 +1,35 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a39f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a39f.dir/build.make CMakeFiles/cmTC_3a39f.dir/build
+make[1]: se entra en el directorio '/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a39f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3a39f.dir/CheckSymbolExists.c.o   -c /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3a39f
+/home/tati2327/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a39f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3a39f.dir/CheckSymbolExists.c.o  -o cmTC_3a39f 
+CMakeFiles/cmTC_3a39f.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3a39f.dir/build.make:86: recipe for target 'cmTC_3a39f' failed
+make[1]: *** [cmTC_3a39f] Error 1
+make[1]: se sale del directorio '/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_3a39f/fast' failed
+make: *** [cmTC_3a39f/fast] Error 2
+
+File /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
