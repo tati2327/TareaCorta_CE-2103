@@ -16,7 +16,6 @@ Process::Process() {
     vehicleDefault = new Vehicle();
 
     for(int i = 0; i<=2 ; i++){
-        cout<<i<<endl;
         productionA.add(vehicleDefault);
         productionB.add(vehicleDefault);
         productionC.add(vehicleDefault);
