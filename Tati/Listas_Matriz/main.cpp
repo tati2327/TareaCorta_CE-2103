@@ -12,26 +12,30 @@ int main() {
 
     thread type1(&Factory::createVehicle, &myFactory, 1);
     this_thread::sleep_for(chrono::seconds(1));
-    thread type2(&Factory::createVehicle, &myFactory, 1);
+    thread type1_1(&Factory::createVehicle, &myFactory, 1);
     this_thread::sleep_for(chrono::seconds(1));
-    thread type3(&Factory::createVehicle, &myFactory, 1);
+    thread type2(&Factory::createVehicle, &myFactory, 2);
     this_thread::sleep_for(chrono::seconds(1));
-    thread type4(&Factory::createVehicle, &myFactory, 1);
+    thread type2_2(&Factory::createVehicle, &myFactory, 2);
+    this_thread::sleep_for(chrono::seconds(1));
+    thread type3(&Factory::createVehicle, &myFactory, 3);
+    this_thread::sleep_for(chrono::seconds(1));
+    thread type4(&Factory::createVehicle, &myFactory, 4);
+    this_thread::sleep_for(chrono::seconds(1));
+    thread type5(&Factory::createVehicle, &myFactory, 5);
+    this_thread::sleep_for(chrono::seconds(1));
+    thread type6(&Factory::createVehicle, &myFactory, 6);
 
     manage.join();
-    cout<<"Manage thread run"<<endl;
 
     type1.join();
-    cout<<"Se inicio hilo 1"<<endl;
-
     type2.join();
-    cout<<"Se inicio hilo 2"<<endl;
-
     type3.join();
-    cout<<"Se inicio hilo 3"<<endl;
-
     type4.join();
-    cout<<"Se inicio hilo 4"<<endl;
+    type5.join();
+    type6.join();
+    type1_1.join();
+    type2_2.join();
 
     return 0;
 }

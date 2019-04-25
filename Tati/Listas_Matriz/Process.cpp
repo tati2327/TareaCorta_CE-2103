@@ -34,10 +34,9 @@ Process *Process::getInstance() {
 
 bool Process::applyProcess(List<Vehicle *>& process, int field, char _process) {
     while (process.getData(field)->time >0){
-
         cout<<"Le quedan "<<process.getData(field)->time<<" segundos para terminar el proceso "<<process.getData(field)->process<<" al vehiculo tipo "<<process.getData(field)->type<<endl;
         process.getData(field)->time--;
-        this_thread::sleep_for(chrono::seconds(2));
+        this_thread::sleep_for(chrono::seconds(4));
 
         if(field == 0) {
             if (_process == 'A') {
@@ -63,10 +62,7 @@ bool Process::applyProcess(List<Vehicle *>& process, int field, char _process) {
     }
     Vehicle* temp = &*process.getData(field);
     cout<<"Se termino de aplicar el proceso "<<temp->process<<" al vehiculo tipo "<<temp->type<<endl;
-
     process.getNode(field)->setValue(vehicleDefault);
-
-    cout<<"La lista del proceso "<<temp->process<<" tiene "<<process.size()<<" elementos"<<endl;
 
     temp->listProcess.deleteIndex(0);
     if(temp->listProcess.size() == 0) {
@@ -76,6 +72,5 @@ bool Process::applyProcess(List<Vehicle *>& process, int field, char _process) {
 
     temp->process = temp->listProcess.getData(0)[0];
     temp->time = temp->listProcess.getData(0)[1] - '0';
-
     return true;
 }

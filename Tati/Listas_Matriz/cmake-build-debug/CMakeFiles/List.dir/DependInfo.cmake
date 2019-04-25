@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Factory.cpp" "/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/CMakeFiles/List.dir/Factory.cpp.o"
-  "/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Manager.cpp" "/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/CMakeFiles/List.dir/Manager.cpp.o"
   "/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.cpp" "/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/CMakeFiles/List.dir/Process.cpp.o"
   "/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Vehicle.cpp" "/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/CMakeFiles/List.dir/Vehicle.cpp.o"
   "/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/main.cpp" "/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/CMakeFiles/List.dir/main.cpp.o"

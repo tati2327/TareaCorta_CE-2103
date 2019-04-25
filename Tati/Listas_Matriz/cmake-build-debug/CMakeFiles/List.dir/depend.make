@@ -10,14 +10,6 @@ CMakeFiles/List.dir/Factory.cpp.o: ../Node_def.h
 CMakeFiles/List.dir/Factory.cpp.o: ../Process.h
 CMakeFiles/List.dir/Factory.cpp.o: ../Vehicle.h
 
-CMakeFiles/List.dir/Manager.cpp.o: ../List.h
-CMakeFiles/List.dir/Manager.cpp.o: ../List_def.h
-CMakeFiles/List.dir/Manager.cpp.o: ../Manager.cpp
-CMakeFiles/List.dir/Manager.cpp.o: ../Manager.h
-CMakeFiles/List.dir/Manager.cpp.o: ../Node.h
-CMakeFiles/List.dir/Manager.cpp.o: ../Node_def.h
-CMakeFiles/List.dir/Manager.cpp.o: ../Vehicle.h
-
 CMakeFiles/List.dir/Process.cpp.o: ../List.h
 CMakeFiles/List.dir/Process.cpp.o: ../List_def.h
 CMakeFiles/List.dir/Process.cpp.o: ../Node.h

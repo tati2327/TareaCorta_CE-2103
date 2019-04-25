@@ -6,26 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Factory.cpp
-thread
--
-Factory.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Factory.h
-chrono
--
-string
--
-
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Factory.h
-mutex
--
-Vehicle.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Vehicle.h
-List.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List.h
-Process.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.h
-
 /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List.h
 iostream
 -
@@ -42,6 +22,14 @@ Node_def.h
 
 /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Node_def.h
 
+/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.cpp
+Process.h
+/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.h
+thread
+-
+chrono
+-
+
 /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.h
 mutex
 -
@@ -55,14 +43,4 @@ List.h
 /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List.h
 string
 -
-
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/main.cpp
-iostream
--
-thread
--
-List.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List.h
-Factory.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Factory.h
 
