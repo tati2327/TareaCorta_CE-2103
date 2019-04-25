@@ -96,6 +96,12 @@
 		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List_def.h">
 			<Option target="List"/>
 		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Manager.cpp">
+			<Option target="List"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Manager.h">
+			<Option target="List"/>
+		</Unit>
 		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Node.h">
 			<Option target="List"/>
 		</Unit>

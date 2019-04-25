@@ -1,6 +1,7 @@
 #ifndef LIST_FACTORY_H
 #define LIST_FACTORY_H
 
+#include <mutex>
 #include "Vehicle.h"
 #include "List.h"
 #include "Process.h"
@@ -11,9 +12,11 @@ class Factory {
 
         List<Vehicle*> queeGeneral;
         Process * myProcess;
+        mutex myMutex;
 
         void createVehicle(int type);
-        void callProcess(List<Vehicle*> process, Vehicle* vehicle);
+        bool callProcess(List<Vehicle*>& productionList, Vehicle* vehicle, char typeProcess);
+        void queeManage();
 };
 
 

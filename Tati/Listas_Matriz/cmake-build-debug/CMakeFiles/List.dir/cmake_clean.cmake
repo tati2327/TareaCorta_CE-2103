@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/List.dir/Factory.cpp.o"
   "CMakeFiles/List.dir/Process.cpp.o"
   "CMakeFiles/List.dir/Vehicle.cpp.o"
+  "CMakeFiles/List.dir/Manager.cpp.o"
   "List.pdb"
   "List"
 )

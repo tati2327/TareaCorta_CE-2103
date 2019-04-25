@@ -37,8 +37,8 @@ void List<T>::add(T data) {
 template<typename T>
 void List<T>::deleteNode(T data) {
     if (first != nullptr) {
-        Node<T> *auxDelete;
-        auxDelete = first;
+        Node<T> *auxDelete = first;
+        curr = nullptr;
 
         while ((auxDelete != nullptr) && (auxDelete->data != data)) {
             curr = auxDelete;
@@ -50,8 +50,14 @@ void List<T>::deleteNode(T data) {
             cout << "El elemento no existe"<<endl;
         } else if (curr == nullptr) {
             /*! El elemento es el primero de la lista */
-            first = first->next;
-            delete(auxDelete);
+            if(first == last){
+                first = nullptr;
+                last = nullptr;
+                delete(auxDelete);
+            } else {
+                first = first->next;
+                delete (auxDelete);
+            }
         } else if(auxDelete == last) {
             /*! El elemento esta al final*/
             last = curr;
@@ -68,32 +74,35 @@ void List<T>::deleteNode(T data) {
 template <typename T>
 void List<T>::deleteIndex(int index) {
     if (first != nullptr) {
-        Node<T> *auxDelete;
-        auxDelete = first;
+    Node<T>* auxDelete = first;
 
         int count=0;
-        while ((auxDelete != nullptr) && index!= count) {
+        while ((auxDelete != nullptr) && index != count) {
             curr = auxDelete;
             auxDelete = auxDelete->next;
             count++;
         }
 
-        /*! No se encontró el elemento*/
-        if (auxDelete == nullptr) {
-            cout << "El elemento no existe"<<endl;
-        } else if (curr == nullptr) {
+        if (index == 0) {
             /*! El elemento es el primero de la lista */
             first = first->next;
             delete(auxDelete);
-        } else if(auxDelete == last) {
+
+            if(first == nullptr){
+                last = nullptr;
+                return;
+            }
+        }else if(auxDelete == last) {
             /*! El elemento esta al final*/
+            curr->next = nullptr;
             last = curr;
-            curr->next = auxDelete->next;
             delete(auxDelete);
+            return;
         } else{
             /*!El elemento esta en el medio*/
             curr->next = auxDelete->next;
             delete(auxDelete);
+            return;
         }
     }
 }
@@ -105,7 +114,7 @@ Node<T>* List<T>::getNode(int index) {
         return first;
     } else {
         /*! Si el elemento esta en el medio o final de la lista */
-        Node<T>* curr = this->first;
+        curr = this->first;
         for(int i = 0; i < index; ++i) {
             curr = curr->next;
         }

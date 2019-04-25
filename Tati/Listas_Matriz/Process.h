@@ -1,6 +1,7 @@
 #ifndef LIST_PROCESS_H
 #define LIST_PROCESS_H
 
+#include <mutex>
 #include "List.h"
 #include "Vehicle.h"
 
@@ -18,9 +19,12 @@ class Process {
         List<Vehicle*> productionE;
         List<Vehicle*> productionF;
 
-        static Process* getInstance();
-        void applyProcess(List<Vehicle*> process, int field);
-};
+        Vehicle *vehicleDefault;
 
+        bool flagA, flagB, flagC, flagD, flagE, flagF;
+
+        static Process* getInstance();
+        bool applyProcess(List<Vehicle*>& process, int field, char _process);
+};
 
 #endif //LIST_PROCESS_H

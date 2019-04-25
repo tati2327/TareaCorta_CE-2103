@@ -150,6 +150,33 @@ Factory.cpp.s:
 	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Factory.cpp.s
 .PHONY : Factory.cpp.s
 
+Manager.o: Manager.cpp.o
+
+.PHONY : Manager.o
+
+# target to build an object file
+Manager.cpp.o:
+	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Manager.cpp.o
+.PHONY : Manager.cpp.o
+
+Manager.i: Manager.cpp.i
+
+.PHONY : Manager.i
+
+# target to preprocess a source file
+Manager.cpp.i:
+	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Manager.cpp.i
+.PHONY : Manager.cpp.i
+
+Manager.s: Manager.cpp.s
+
+.PHONY : Manager.s
+
+# target to generate assembly for a file
+Manager.cpp.s:
+	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/Manager.cpp.s
+.PHONY : Manager.cpp.s
+
 Process.o: Process.cpp.o
 
 .PHONY : Process.o
@@ -243,6 +270,9 @@ help:
 	@echo "... Factory.o"
 	@echo "... Factory.i"
 	@echo "... Factory.s"
+	@echo "... Manager.o"
+	@echo "... Manager.i"
+	@echo "... Manager.s"
 	@echo "... Process.o"
 	@echo "... Process.i"
 	@echo "... Process.s"
