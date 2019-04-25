@@ -6,22 +6,65 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Factory.cpp
+thread
+-
+Factory.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Factory.h
+chrono
+-
+string
+-
+
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Factory.h
+mutex
+-
+Vehicle.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Vehicle.h
+List.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/List.h
+Process.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Process.h
+
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/List.h
+=======
 /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List.h
+>>>>>>> 08f8ff363bf8477029f9b9451279ce98b3a1e431
 iostream
 -
 Node.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Node.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Node.h
 List_def.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List_def.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/List_def.h
 
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List_def.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/List_def.h
 
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Node.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Manager.cpp
+Manager.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Manager.h
+
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Manager.h
+Vehicle.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Vehicle.h
+
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Node.h
 Node_def.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Node_def.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Node_def.h
 
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Node_def.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Node_def.h
 
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Process.cpp
+Process.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Process.h
+thread
+-
+chrono
+-
+
+<<<<<<< HEAD
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Process.h
+=======
 /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.cpp
 Process.h
 /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.h
@@ -31,16 +74,38 @@ chrono
 -
 
 /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.h
+>>>>>>> 08f8ff363bf8477029f9b9451279ce98b3a1e431
 mutex
 -
 List.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/List.h
 Vehicle.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Vehicle.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Vehicle.h
 
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Vehicle.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Vehicle.cpp
+Vehicle.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Vehicle.h
+Process.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Process.h
+iostream
+-
+
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Vehicle.h
 List.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/List.h
 string
 -
 
+<<<<<<< HEAD
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/main.cpp
+iostream
+-
+thread
+-
+List.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/List.h
+Factory.h
+/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Factory.h
+
+=======
+>>>>>>> 08f8ff363bf8477029f9b9451279ce98b3a1e431

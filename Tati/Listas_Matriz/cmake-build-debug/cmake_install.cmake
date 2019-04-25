@@ -1,4 +1,4 @@
-# Install script for directory: /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz
+# Install script for directory: /home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

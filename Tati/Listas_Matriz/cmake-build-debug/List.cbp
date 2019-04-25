@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug"/>
+				<Option working_dir="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug"/>
+				<Option working_dir="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="List">
-				<Option output="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/List" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug"/>
+				<Option output="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/List" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 List"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 List"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="List/fast">
-				<Option output="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/List" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug"/>
+				<Option output="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/List" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,57 +67,67 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 List/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 List/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug"/>
+				<Option working_dir="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Factory.cpp">
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Factory.cpp">
 			<Option target="List"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Factory.h">
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Factory.h">
 			<Option target="List"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List.h">
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/List.h">
 			<Option target="List"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List_def.h">
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/List_def.h">
 			<Option target="List"/>
 		</Unit>
+<<<<<<< HEAD
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Manager.cpp">
+			<Option target="List"/>
+		</Unit>
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Manager.h">
+			<Option target="List"/>
+		</Unit>
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Node.h">
+=======
 		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Node.h">
+>>>>>>> 08f8ff363bf8477029f9b9451279ce98b3a1e431
 			<Option target="List"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Node_def.h">
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Node_def.h">
 			<Option target="List"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.cpp">
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Process.cpp">
 			<Option target="List"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.h">
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Process.h">
 			<Option target="List"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Vehicle.cpp">
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Vehicle.cpp">
 			<Option target="List"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Vehicle.h">
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Vehicle.h">
 			<Option target="List"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/main.cpp">
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/main.cpp">
 			<Option target="List"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/CMakeLists.txt">
+		<Unit filename="/home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
