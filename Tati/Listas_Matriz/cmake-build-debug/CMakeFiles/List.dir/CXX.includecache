@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Factory.cpp
 thread
 -
@@ -27,6 +28,9 @@ Process.h
 /home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Process.h
 
 /home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/List.h
+=======
+/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List.h
+>>>>>>> 08f8ff363bf8477029f9b9451279ce98b3a1e431
 iostream
 -
 Node.h
@@ -58,7 +62,19 @@ thread
 chrono
 -
 
+<<<<<<< HEAD
 /home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Process.h
+=======
+/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.cpp
+Process.h
+/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.h
+thread
+-
+chrono
+-
+
+/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.h
+>>>>>>> 08f8ff363bf8477029f9b9451279ce98b3a1e431
 mutex
 -
 List.h
@@ -80,6 +96,7 @@ List.h
 string
 -
 
+<<<<<<< HEAD
 /home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/main.cpp
 iostream
 -
@@ -90,3 +107,5 @@ List.h
 Factory.h
 /home/josu/Documents/Github/TareaCorta/Tati/Listas_Matriz/Factory.h
 
+=======
+>>>>>>> 08f8ff363bf8477029f9b9451279ce98b3a1e431

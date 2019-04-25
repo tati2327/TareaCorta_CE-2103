@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/List.dir/main.cpp.o CMakeFiles/List.dir/Factory.cpp.o CMakeFiles/List.dir/Process.cpp.o CMakeFiles/List.dir/Vehicle.cpp.o CMakeFiles/List.dir/Manager.cpp.o  -o List -pthread 
+/usr/bin/c++  -g   CMakeFiles/List.dir/main.cpp.o CMakeFiles/List.dir/Factory.cpp.o CMakeFiles/List.dir/Process.cpp.o CMakeFiles/List.dir/Vehicle.cpp.o  -o List -pthread 
