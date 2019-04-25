@@ -42,14 +42,6 @@ Node_def.h
 
 /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Node_def.h
 
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.cpp
-Process.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.h
-thread
--
-chrono
--
-
 /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.h
 mutex
 -
@@ -57,14 +49,6 @@ List.h
 /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/List.h
 Vehicle.h
 /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Vehicle.h
-
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Vehicle.cpp
-Vehicle.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Vehicle.h
-Process.h
-/home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Process.h
-iostream
--
 
 /home/tati2327/Documentos/GITHUB/TareaCorta1/Tati/Listas_Matriz/Vehicle.h
 List.h

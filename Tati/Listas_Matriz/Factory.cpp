@@ -20,12 +20,30 @@ void Factory::createVehicle(int type) {
     cout<<"<-------------Iniciando la producción de un vehículo tipo "<<myVehicle->type<<endl;
 
     while(!myVehicle->end){
-        if(myVehicle->process == 'A'){ callProcess(myProcess->productionA, myVehicle, 'A'); cout<<"PROCESO A LISTO"<<endl;}
-        if(myVehicle->process == 'B'){ callProcess(myProcess->productionB, myVehicle, 'B'); cout<<"PROCESO B LISTO"<<endl;}
-        if(myVehicle->process == 'C'){ callProcess(myProcess->productionC, myVehicle, 'C'); cout<<"PROCESO C LISTO"<<endl;}
-        if(myVehicle->process == 'D'){ callProcess(myProcess->productionD, myVehicle, 'D'); cout<<"PROCESO D LISTO"<<endl;}
-        if(myVehicle->process == 'E'){ callProcess(myProcess->productionE, myVehicle, 'E'); cout<<"PROCESO E LISTO"<<endl;}
-        if(myVehicle->process == 'F'){ callProcess(myProcess->productionF, myVehicle, 'F'); cout<<"PROCESO F LISTO"<<endl;}
+        if(myVehicle->process == 'A'){
+            if(!callProcess(myProcess->productionA, myVehicle, 'A')) {
+                while(myVehicle->process == 'A') { }
+            } cout<<"PROCESO A LISTO"<<endl;}
+        if(myVehicle->process == 'B'){
+            if(callProcess(myProcess->productionB, myVehicle, 'B')){
+                while (myVehicle->process == 'B') { }
+            } cout<<"PROCESO B LISTO"<<endl;}
+        if(myVehicle->process == 'C'){
+            if(callProcess(myProcess->productionC, myVehicle, 'C')){
+                while (myVehicle->process == 'C') { }
+            } cout<<"PROCESO C LISTO"<<endl;}
+        if(myVehicle->process == 'D'){
+            if(callProcess(myProcess->productionD, myVehicle, 'D')){
+                while (myVehicle->process == 'D') { }
+            } cout<<"PROCESO D LISTO"<<endl;}
+        if(myVehicle->process == 'E'){
+            if(!callProcess(myProcess->productionE, myVehicle, 'E')){
+                while (myVehicle->process == 'E') { }
+            } cout<<"PROCESO E LISTO"<<endl;}
+        if(myVehicle->process == 'F'){
+            if(!callProcess(myProcess->productionF, myVehicle, 'F')){
+                while (myVehicle->process == 'F') { }
+            } cout<<"PROCESO F LISTO"<<endl;}
     }
     cout<<"<--------------Vehiculo tipo "<<type<<" creado"<<endl;
 }

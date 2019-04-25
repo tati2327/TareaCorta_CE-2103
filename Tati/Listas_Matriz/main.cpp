@@ -33,9 +33,5 @@ int main() {
     type4.join();
     cout<<"Se inicio hilo 4"<<endl;
 
-
-
-
-
     return 0;
 }
